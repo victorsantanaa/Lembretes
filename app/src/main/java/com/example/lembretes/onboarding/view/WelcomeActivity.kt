@@ -4,10 +4,8 @@ import android.content.Context
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.example.lembretes.MainActivity
-import com.example.lembretes.R
+import com.example.lembretes.main.MainActivity
 import com.example.lembretes.databinding.ActivityWelcomeBinding
-import com.example.lembretes.databinding.FragmentSecondWelcomeBinding
 import com.example.lembretes.onboarding.view.fragment.ALREADY_KEY
 import com.example.lembretes.onboarding.view.fragment.FirstWelcomeFragment
 import com.example.lembretes.onboarding.view.fragment.SecondWelcomeFragment
