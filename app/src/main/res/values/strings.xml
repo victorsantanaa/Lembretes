@@ -5,4 +5,6 @@
     <string name="first_welcome_text">Gerencie seus contatos e seu próprio perfil utilizando o app Lembretes</string>
     <string name="second_welcome_title">Obrigado por utilizar. Clique em \'Iniciar\' oara começar a utilizar</string>
     <string name="init">Iniciar</string>
+    <string name="contatos">Contatos</string>
+    <string name="profile">Perfil</string>
 </resources>
