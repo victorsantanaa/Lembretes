@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lembretes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="first_welcome_text">Gerencie seus contatos e seu próprio perfil utilizando o app Lembretes</string>
+    <string name="second_welcome_title">Obrigado por utilizar. Clique em \'Iniciar\' oara começar a utilizar</string>
+    <string name="init">Iniciar</string>
+</resources>
