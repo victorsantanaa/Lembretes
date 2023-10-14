@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    tools:context=".ReminderMainActivity">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/activity_reminder_text_title"
+        style="@style/MaterialAlertDialog.Material3.Title.Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Adicione um novo lembrete"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/activity_reminder_text_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Título do lembrete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_reminder_text_title" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/activity_reminder_name_input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Adicione um título"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_reminder_text_name_label" />
+
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/activity_reminder_text_value_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="Valor do Lembrete"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_reminder_name_input_text" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/activity_reminder_value_input_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:hint="Adicione um valor"
+        android:inputType="numberDecimal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_reminder_text_value_label" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/activity_reminder_date_picker_button"
+        style="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/date"
+        android:textColor="@color/disabled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_reminder_value_input_text" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/activity_reminder_recurrence_picker_button"
+        style="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/recorrencie"
+        android:textColor="@color/disabled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_reminder_date_picker_button" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/activity_reminder_duration_picker_button"
+        style="@style/TextAppearance.AppCompat.Medium.Inverse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/duration"
+        android:textColor="@color/disabled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/activity_reminder_recurrence_picker_button" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/activity_reminder_add_event_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp"
+        android:backgroundTint="@color/background"
+        android:enabled="false"
+        android:text="Adicionar evento"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
