@@ -10,8 +10,11 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Lembretes"
+        android:theme="@style/Base.Theme.Lembretes"
         tools:targetApi="31">
+        <activity
+            android:name=".ReminderMainActivity"
+            android:exported="false" />
         <activity
             android:name=".onboarding.view.WelcomeActivity"
             android:exported="true">
@@ -22,8 +25,9 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name=".main.MainActivity"
             android:exported="true">
+
         </activity>
     </application>
 

@@ -5,4 +5,23 @@
     <string name="first_welcome_text">Gerencie seus contatos e seu próprio perfil utilizando o app Lembretes</string>
     <string name="second_welcome_title">Obrigado por utilizar. Clique em \'Iniciar\' oara começar a utilizar</string>
     <string name="init">Iniciar</string>
+    <string name="contatos">Contatos</string>
+    <string name="profile">Perfil</string>
+    <string name="query_hint">Procurando por ...\n</string>
+    <string name="reminder">Lembretes</string>
+    <string name="add_event">ADICIONAR EVENTO</string>
+    <string name="recorrencie">Recorrência</string>
+    <string name="date">Data</string>
+    <string name="duration">Duração</string>
+    <string name="daily">Diariamente</string>
+    <string name="weekly">Semanal</string>
+    <string name="monthly">Mensal</string>
+    <string name="yearly">Anual</string>
+    <string name="define_recurrence">Definir recorrência</string>
+    <string name="semiannual">Semestral</string>
+    <string name="define_duration">Definir duração</string>
+    <string name="one_month">1 mês</string>
+    <string name="two_month">2 meses</string>
+    <string name="six_month">6 meses</string>
+    <string name="one_year">1 ano</string>
 </resources>

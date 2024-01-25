@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "161768606864",
+    "project_id": "reminder-ab0d5",
+    "storage_bucket": "reminder-ab0d5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161768606864:android:27905251ee1d476be99c15",
+        "android_client_info": {
+          "package_name": "com.example.lembretes"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa4IOeJUlFcb2xDftZqN01Lvnc4Oz1tZw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
