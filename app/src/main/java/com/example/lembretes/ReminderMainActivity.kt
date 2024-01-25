@@ -71,7 +71,7 @@ class ReminderMainActivity : AppCompatActivity() {
             defineRecurrenceButton.setOnClickListener(View.OnClickListener {
                 val selectedRadioButtonId = recurrenceRadioGroup.checkedRadioButtonId
 
-                if (selectedRadioButtonId != -1) {
+                if (selectedRadioButtonId != -1) { 
                     // Um RadioButton foi selecionado
                     when (selectedRadioButtonId) {
                         R.id.daily_radio_button -> {
